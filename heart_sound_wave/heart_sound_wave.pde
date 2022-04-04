@@ -1,5 +1,5 @@
 // https://github.com/WorldFamousElectronics/PulseSensor_Amped_Processing_Visualizer
-
+// https://pulsesensor.com/pages/getting-advanced
 
 import processing.sound.*;
 import processing.serial.*;  
@@ -53,7 +53,7 @@ void draw() {
         pushMatrix();
         translate(width/2, height/2);
 
-        background(255);
+        background(90,2);
 
         fill(0);
         ellipse(0, 0, 5, 5);
